@@ -21,3 +21,4 @@ class CryptoListLoadingFailure extends CryptoListState {
 
   final Object? exception;
 }
+//
