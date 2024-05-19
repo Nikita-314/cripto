@@ -20,3 +20,4 @@ class CryptoListBloc extends Bloc<CryptoListEvent, CryptoListState> {
 
   final AbstractCoinsRepository coinsRepository;
 }
+////
