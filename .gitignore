@@ -1,44 +1,36 @@
-# Miscellaneous
-*.class
+.env
+.env.*
+.env*
+!.env.example
+
+.vscode/
+
 *.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
+*.log.gz
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+paper_state.json
+paper_balance_state.json
+paper_reset_request.txt
+adaptive_state.json
+adaptive_runtime_state.json
+strategy_state.json
+binance_universe_cache.json
+trailing_positions.json
+reentry_cooldowns.tsv
+entry_attempt_state.tsv
+universe_overrides.json
+blacklist_candidates.json
+shadow_short_paper_state.json
+daily_pnl_report_state.txt
+logs/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-/android/src
+# Kotlin / Gradle
+kotlin/build/
+kotlin/.gradle/
+kotlin/.kotlin/
+*.class
